@@ -1,0 +1,57 @@
+
+<div class="container">
+
+    <div id="container" class="bs-example" style="margin:0">
+        <div class="page-header" id="reader">
+            <h1>Titulo da noticia <small>assunto</small></h1>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="thumbnail">
+                    <img src="images/CoC_titlescreen_2013_1440_727_c1.jpg"/>
+                </div>
+
+                <div id="ytplayer"></div>
+
+                <script>
+                    // Load the IFrame Player API code asynchronously.
+                    var tag = document.createElement('script');
+                    tag.src = "https://www.youtube.com/player_api";
+                    var firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                    // Replace the 'ytplayer' element with an <iframe> and
+                    // YouTube player after the API code downloads.
+                    var player;
+                    function onYouTubePlayerAPIReady() {
+                        player = new YT.Player('ytplayer', {
+                            height: '390',
+                            width: '640',
+                            videoId: 'M7lc1UVf-VE'
+                        });
+                    }
+                </script>
+
+
+
+                <div class="caption">
+                    <h3>Teste de video pokemon</h3>
+                    <p>Continuação com o fortalecimento para muro 13.Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13Continuação com o fortalecimento para muro 13</p>
+                    <div class="video-artigo">
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
